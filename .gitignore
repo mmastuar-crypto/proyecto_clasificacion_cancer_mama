@@ -1,0 +1,6 @@
+data/processed
+*.pkl
+*.ipynb_checkpoints/
+.venv/
+venv/
+__pycache__/
