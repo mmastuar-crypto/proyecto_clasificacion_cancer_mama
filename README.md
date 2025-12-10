@@ -38,11 +38,11 @@ Columnas principales:
 |Columnas|Tipo|Descripcion|
 |-------|-----|-----|
 |id|Entero|Identificador del registro (se elimina)
-|diagnosis|Categorica|M para maligno, B para benigno
-|radius_mean|Numerica|radio promedio
-|texture_mean|Numerica|textura promedio
-|perimeter_mean|Numerica|perímetro promedio
-|area_mean|Numerica|área promedio
+|diagnosis|Categórica|M para maligno, B para benigno
+|radius_mean|Numérica|radio promedio
+|texture_mean|Numérica|textura promedio
+|perimeter_mean|Numérica|perímetro promedio
+|area_mean|Numérica|área promedio
 |Unnamed: 32|Nula|columna vacía que se elimina en la limpieza
 
 Durante la limpieza se crea una columna nueva llamada diagnosis_binaria, donde 1 representa maligno y 0 representa benigno.
